@@ -193,5 +193,63 @@ div.modal div.inner {
 }
 
 @media(min-width: 729px) {
+  html, body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 12px;
+    padding: 45px;
+    font-family: sans-serif;
+    font-style: italic;
+  }
+  h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-style: normal;
+  }
+  #factone {
+    top: 35%;
+    right: 10%;
+    background-color: #ff0000;
+  }
+  #facttwo {
+    top: 60%;
+    right: 80%;
+    background-color: #ff0000;
+  }
+  #factthree {
+    top: 25%;
+    right: 75%;
+    background-color: #ff0000;
+  }
+  #facttwelve {
+    top: 11%;
+    right: 39%;
+    background-color: #004a8b;
+  }
+  #factfourteen {
+    top: 27%;
+    right: 42%;
+    background-color: #377d21;
+  }
+  #facteleven {
+    top: 18%;
+    right: 38%;
+    background-color: #004a8b;
+  }
+  #factthirteen {
+    top: 55%;
+    right: 32%;
+    background-color: #377d21;
+  }
+  #factfifteen {
+    top: 62%;
+    right: 67%;
+    background-color: #004a8b;
+  }
+  #factsixteen {
+    top: 70%;
+    right: 10%;
+    background-color: #377d21;
+  }
   /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
 }
